@@ -1,4 +1,4 @@
-# Data give in the form of Dictionary.
+# ===== Data give in the form of Dictionary ===== #
 MENU = {
     "espresso": {
         "ingredients": {
@@ -31,7 +31,7 @@ resources = {
     "coffee": 100,
 }
 
-
+# ===== Code starts here ===== #
 water = resources["water"]
 milk = resources["milk"]
 coffee = resources["coffee"]
