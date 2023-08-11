@@ -9,6 +9,7 @@ on every year that is evenly divisible by 4
 **except** every year that is evenly divisible by 100
 
 **unless** the year is also evenly divisible by 400
+(Meaning of above 3 lines: Year should be divisible by either 4 or all (i.e. 4, 100, 400) to be a leap year.)
 
 e.g. The year 2000:
 2000 ÷ 4 = 500 (Leap)
