@@ -1,3 +1,6 @@
+# This code draws Triangle, Square, Pentagon, Hexagon, Heptagon, Octagon and Nonagon
+# All the shapes drawn in different color.
+
 from turtle import Turtle, Screen
 from random import choice
 
