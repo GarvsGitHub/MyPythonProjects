@@ -1,5 +1,6 @@
-# Hirst painting is drawn by the artist Damien Hirst and that is why it is named after him.
+# Hirst painting is drawn by the artist 'Damien Hirst' and that is why it is named after him.
 # The painting was sold in 2008 auction for around $198 Million USD.
+# In this code we will draw hirst painting using turtle graphics.
 
 import turtle
 from turtle import Turtle, Screen
