@@ -1,3 +1,8 @@
+# ====== Welcome to Higher Lower Game ===== #
+# This code will run efficiently on replit website as we have imported their customized clear function to clear the screen.
+# How to play: You just have to guess who has more followers on social media amongst given two choices.
+# The data may not be real as it is created just for play, So Enjoy!.
+
 from game_data import data
 import random
 from art import logo, vs
