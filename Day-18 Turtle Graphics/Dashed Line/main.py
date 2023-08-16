@@ -1,4 +1,5 @@
-# How to draw a dashed line in turtle graphics
+# How to draw a dashed line in turtle graphics screen.
+
 import turtle as t
 from turtle import Screen
 
