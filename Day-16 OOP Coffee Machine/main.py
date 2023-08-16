@@ -1,3 +1,7 @@
+# ===== Welcome to the Coffee Machine 2.0 ====== #
+# This coffee machine is exactly same as Day-15 coffee machine
+# Only the difference is it is solved using OOP concepts.
+
 from menu import Menu
 from coffee_maker import CoffeeMaker
 from money_machine import MoneyMachine
