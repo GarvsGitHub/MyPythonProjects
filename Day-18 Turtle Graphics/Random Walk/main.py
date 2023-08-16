@@ -1,3 +1,5 @@
+# Drawing random color in random direction.
+
 import turtle as t
 from turtle import Screen
 import random
