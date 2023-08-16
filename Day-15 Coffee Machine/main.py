@@ -3,7 +3,7 @@
 # You may face incovinience as we have limited resources to make coffee.
 # You can check the resources by typing 'report' when machine asks for order.
 # This machine accepts only coins so please keep the change with you.
-# Acceptable coins: quarters($0.25), dimes($0.1), nickles($0.05), pennies($0.01).
+# Acceptable coins: quarters($0.25), dimes($0.10), nickles($0.05), pennies($0.01).
 # Please don't forget to turn off the machine by typing 'off' when you are done ordering.
 
 MENU = {
