@@ -1,7 +1,7 @@
 # ====== Welcome to the Snake Game High Score ===== #
 # This snake game is different than the previous one.
 # We have added all time high score in this game by using file handling concept.
-# Controls: all the arrow keys for direction. 
+# Controls: all four arrow keys for direction. 
 from turtle import Screen
 from snake import Snake
 from food import Food
