@@ -1,3 +1,4 @@
+# Tiny project for tkinter UI
 from tkinter import *
 
 
