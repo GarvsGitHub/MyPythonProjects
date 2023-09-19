@@ -1,10 +1,10 @@
 # Have you ever struggled convaying your words while on call?
 # In professional work place there are a lot of meaningless words(names given to a project or etc.) that we try to convay through phone call.
 # So to make those word to udnerstood on the otherside we start telling each alphabet of the word that how it is spelled.
-# So to make your conversation clear we use phonetic alphabet that is called NATO phonetic alphabet.
+# So to make your conversation clear we use NATO phonetic alphabet.
+# Example: A as an Alpha, C as an Charlie.
 # And that is what we are going to generate through this project.
 # Enter any name or random word to generate phonetic words for it.
-# Example: A as an Alpha, C as an Charlie.
 import pandas
 
 data = pandas.read_csv("nato_phonetic_alphabet.csv")
