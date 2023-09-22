@@ -1,3 +1,10 @@
+# ===== Welcome to Pomodoro Technique project ===== #
+# Pomodoro means tomato in Italian
+# The Pomodoro Technique was developed in the late 1980s by the university student Francesco Cirillo.
+# Cirillo was struggling to focus on his studies and complete assignments.
+# Feeling overwhelmed, he asked himself to commit to just 10 minutes of focused study time. 
+# Encouraged by the challenge, he found a tomato (pomodoro in Italian) shaped kitchen timer, and the Pomodoro technique was born.
+
 import math
 from tkinter import *
 # ---------------------------- CONSTANTS ------------------------------- #
@@ -70,7 +77,7 @@ def count_down(count):
 
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
-window.title("Pomodoro")  # Pomodoro means tomato in Italian
+window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
 
 label = Label(text="Timer", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 35))
