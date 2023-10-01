@@ -1,8 +1,9 @@
 # ===== A Beautiful Mini-application to save and generate password ===== #
-# Do you remember passwords for all your social media or applications? Too lazy to create a strong password?
+# Do you remember passwords for all your social media and applications? Too lazy to create a strong password?
 # Don't worry we got your back.
-# This application generates strongest password and stores it in a txt file for you.
+# This application generates strongest password and stores it in a txt file for you so that you can access it anytime in the future.
 # Copies password on your clipboard as soon as you generate it, so that you can paste wherever you want.
+# Password save formate in txt file: Website_name | Email | Password
 from tkinter import *
 from tkinter import messagebox
 from random import choice, randint, shuffle
