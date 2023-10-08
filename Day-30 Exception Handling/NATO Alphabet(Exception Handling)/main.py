@@ -1,6 +1,6 @@
 # ===== Welcome back to the NATO Phonetic Dictionary ===== #
 # In this project we have added exception handling for wrong user input and have also used List Comprehension.
-# Other than this minor changes rest of the functionality is same as previous project of NATO Alphabet.
+# Other than these minor changes mentioned above rest of the functionality is same as we previously done on Day-26.
 import pandas
 
 data = pandas.read_csv("nato_phonetic_alphabet.csv")
