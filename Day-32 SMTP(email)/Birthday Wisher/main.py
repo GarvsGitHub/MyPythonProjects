@@ -9,8 +9,8 @@ import pandas
 import random
 import smtplib
 
-my_email = "jforreels@gmail.com"
-password = "tkuzsqldoiluyfzb"
+my_email = "xxxxxxx@gmail.com"
+password = "xxxxxxxxx"
 
 data = pandas.read_csv("birthdays.csv")
 name = data["name"].to_list()
@@ -34,24 +34,3 @@ for i in range(len(name)):
             connection.sendmail(from_addr=my_email,
                                 to_addrs=email[i],
                                 msg=f"Subject:Happy Birthday\n\n{letter_content}")
-
-
-# ==> Angela's code below which doesn't work for duplicate month and day as it will override and store only one data
-
-# today = datetime.now()
-# today_tuple = (today.month, today.day)
-
-# data = pandas.read_csv("birthdays.csv")
-# birthday_dict = {(data_row["month"], data_row["day"]): data_row for (index, data_row) in data.iterrows()}
-# if today_tuple in birthday_dict:
-#     birthday_person = birthday_dict[today_tuple]
-#     with open(f"letter_templates/letter_{random.randint(1, 3)}.txt") as letter_format:
-#         letter_content = letter_format.read()
-#         letter_content = letter_content.replace("[NAME]", birthday_person["name"])
-#
-#     with smtplib.SMTP("smtp.gmail.com", 587) as connection:
-#         connection.starttls()
-#         connection.login(user=my_email, password=password)
-#         connection.sendmail(from_addr=my_email,
-#                             to_addrs=birthday_person["email"],
-#                             msg=f"Subject:Happy Birthday\n\n{letter_content}")
