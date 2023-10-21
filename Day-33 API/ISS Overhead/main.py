@@ -3,7 +3,7 @@
 # We used ISS api to get to know the location of space station.
 # And we used Sunrise-sunset api to get to know when sunrise and sunset happen at my location.
 # For location, we have used longitude and latitude as per api requirement.
-# Main function: 1) When the International Space Station is within the range of +5 or -5 of our longitude and latitude.
+# Main function: 1) When the International Space Station is within the range of +5 or -5 of my longitude and latitude.
 # 2) And it's dark up there in the sky i.e. after sunset and before sunrise.
 # 3) This application will email us that the ISS is above us.
 # It's hard to get output of this code as we have to wait whole day not knowing when it will come overhead.
