@@ -9,6 +9,7 @@
 # It's hard to get output of this code as we have to wait whole day not knowing when ISS will come at our loaction in the sky.
 # If you run this code it will run till your computer is on and will sync every 60 sec and check for location of ISS.
 # So do not panic if you see no output immediately or the exit code 0 statement, because it will keep on running till you stop it.
+# It doesn't stop on it's own.
 # Internet connection is required to run
 
 import smtplib
