@@ -7,7 +7,7 @@
 # 2) And it's dark up there in the sky i.e. after sunset and before sunrise.
 # 3) This application will email us that the ISS is above us.
 # It's hard to get output of this code as we have to wait whole not knowing when it will come overhead.
-# Internet connection is required
+# Internet connection is required to run
 
 import smtplib
 import time
