@@ -3,6 +3,7 @@
 # So you don't have to worry about missing to wish someone on their birthday.
 # To do it automatically you can upload this code on the cloud and set event to trigger it automatically to send email
 # For example: pythonanywhere website will help you do this task
+# Internet connection is required to run.
 
 from datetime import datetime
 import pandas
