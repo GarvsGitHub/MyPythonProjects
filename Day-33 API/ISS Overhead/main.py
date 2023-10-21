@@ -7,6 +7,8 @@
 # 2) And it's dark up there in the sky i.e. after sunset and before sunrise.
 # 3) This application will email us that the ISS is above us.
 # It's hard to get output of this code as we have to wait whole day not knowing when it will come overhead.
+# If you run this code it will run till your computer is on and will sync every 60 sec and check for location of ISS.
+# So do not panic if you see no output immediately or the exit code 0 statement because it will keep on running till you stop it.
 # Internet connection is required to run
 
 import smtplib
