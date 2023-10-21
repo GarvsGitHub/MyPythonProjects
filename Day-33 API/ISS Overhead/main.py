@@ -6,7 +6,7 @@
 # Main function: 1) When the International Space Station is within the range of +5 or -5 of our longitude and latitude.
 # 2) And it's dark up there in the sky i.e. after sunset and before sunrise.
 # 3) This application will email us that the ISS is above us.
-# It's hard to get output of this code as we have to wait whole not knowing when it will come overhead.
+# It's hard to get output of this code as we have to wait whole day not knowing when it will come overhead.
 # Internet connection is required to run
 
 import smtplib
