@@ -4,6 +4,7 @@
 # This is just a code, if you want it to actually send you email on every monday you have to set event on cloud platform such that it will run this code every monday.
 # For now you need to run it to send the email it is not automatic.
 # You can try a free cloud platform like pythonanywhere and set event to try this code.
+# Internet connection required to run.
 
 import datetime as dt
 import smtplib
