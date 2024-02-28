@@ -7,11 +7,11 @@ COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-STOCK_API_KEY = "ESJRTFLI28907HFM"
-NEWS_API_KEY = "2b660e2be5e84b2291b82e8cb4dafc0d"
+STOCK_API_KEY = "ESJRTFLI28907"  # Generate yours on site
+NEWS_API_KEY = "2b660e2be5e84b2291b82e8cb4dad"  # Generate yours on site
 
-TWILIO_SID = "ACde7e5a592b5d3eda01e3077e5f748386"
-TWILIO_AUTH_TOKEN = "18dc5cde5e09486c74e1eabbd9d7738e"
+TWILIO_SID = "Login and Get Yor SID"
+TWILIO_AUTH_TOKEN = "Login and Get your Token"
 
 # When stock price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
 
@@ -68,8 +68,8 @@ if diff_percent > 5:
     for article in formatted_articles:
         message = client.messages.create(
             body=article,
-            from_="+15138134901",
-            to="+918668509673"
+            from_="+15138134901", # Expired Twilio Number
+            to="Your Phone Number"
         )
 
 # (Optional) Format the message like this:
