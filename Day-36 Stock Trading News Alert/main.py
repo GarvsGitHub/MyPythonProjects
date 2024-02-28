@@ -1,3 +1,10 @@
+# ===== Welocme to Stock Trading News Alert Application ======
+# This application sends alert message with news when your favourate stock goes down by 5%
+# We used a News API and a Stock API to fetch actual stock data and news for it's functioning.
+# You can modify the message as per your convinience.
+# For message we used twilio free trial service to send message which doesn't last long.
+# Below API key's and are dummy so goto the site sign up and use your own.
+
 import requests
 from twilio.rest import Client
 
