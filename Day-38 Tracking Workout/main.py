@@ -1,5 +1,7 @@
+#====== Welcome to the Workout Tracking poject ======
 # Here we accessed nutritionix api which calculates calories burnt on the exercise you did and fetched the output.
-# Then we gave this output as input to sheety api which stores our data on the Google sheet
+# Then we gave this output as input to sheety api which stores our data on the Google sheet which tracks our record
+# We have set environment variables which hides our sensitive data.
 
 import requests
 import os
@@ -71,7 +73,7 @@ parameters = {
 auth_username = os.environ.get("Username")
 auth_pwd = os.environ.get("Pwd")
 
-# OR ALTERNATE FOR ABOVE username AND pwd
+# OR ALTERNATE FOR ABOVE username AND pwd IS BELOW
 # headers = {
 #     "Authorization": os.environ.get("Authorization")
 # }
