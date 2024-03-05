@@ -1,6 +1,6 @@
 #====== Welcome to the Workout Tracking poject ======
 # Here we accessed nutritionix api which calculates calories burnt on the exercise you did and fetched the output.
-# Then we gave this output as input to sheety api which stores our data on the Google sheet which tracks our record
+# Then we gave this output as input to sheety api which automatically stores our data on the Google sheet
 # We have set environment variables which hides our sensitive data.
 
 import requests
